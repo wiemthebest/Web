@@ -1,0 +1,29 @@
+p
+{
+    front-size: 12px;
+}
+ form input:nth-of-type(3n+1)
+{
+     border: 2px blue dotted;
+}
+ label 
+ {
+ 	display:inline-block;
+ 	width: 150px;
+ }
+ input:hover
+ {
+ 	background-color: yellow;
+ }
+  input[type="submit"]
+ {
+ 	border-radius: 5px;
+ 	box-shadow: 0px 5px 0px black;
+ 	cursor:pointer;
+
+ }
+ input[type="submit"]:hover
+ {
+ 	background-color: blue;
+ 	color: white;
+ }
